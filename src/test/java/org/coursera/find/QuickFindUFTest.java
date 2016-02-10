@@ -32,8 +32,6 @@ public class QuickFindUFTest {
 
     @Test
     public void testConnect() {
-        quickFind = new QuickFindUF(0) {
-        };
         assertFalse("0 and 1 cannot be connected yet", quickFind.connected(0, 1));
         quickFind.connect(0, 1);
         assertTrue("0 and 1 must be connected already", quickFind.connected(0, 1));
