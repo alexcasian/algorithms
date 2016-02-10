@@ -2,7 +2,7 @@ package org.coursera.find;
 
 import java.util.Arrays;
 
-public class QuickFindUF implements QuickFind {
+public class QuickFindUF implements UnionFind {
 
     private int[] id;
 

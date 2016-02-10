@@ -3,7 +3,7 @@ package org.coursera.find;
 /**
  * Created by acasian on 2/9/2016.
  */
-public interface QuickFind {
+public interface UnionFind {
 
     boolean connected(int p, int q);
 
